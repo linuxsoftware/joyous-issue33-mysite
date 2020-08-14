@@ -8,8 +8,8 @@ class HomeTR(TranslationOptions):
     fields = (
     )
 
-from ls.joyous.models.calendar import CalendarPageForm
-CalendarPageForm.registerImportHandler = lambda *args: None
+#from ls.joyous.models.calendar import CalendarPageForm
+#CalendarPageForm.registerImportHandler = lambda *args: None
 
 @register(CalendarPage)
 class CalendarTR(TranslationOptions):
