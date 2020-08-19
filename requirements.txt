@@ -1,5 +1,4 @@
 Django>=3.0,<3.1
 wagtail>=2.9,<2.11
-#ls.joyous
--e /home/djm/linuxsoftware/ls.joyous
+ls.joyous>=1.3.1
 wagtail-modeltranslation

@@ -18,8 +18,8 @@
 .tox
 .webassets-cache
 /.eggs/
-/cms/media/
-/cms/static/
+/media/
+/static/
 /htmlcov/
 /node_modules/
 __pycache__/
