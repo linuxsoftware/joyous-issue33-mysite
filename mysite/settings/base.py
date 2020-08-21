@@ -137,7 +137,7 @@ USE_I18N = True
 USE_L10N = True
 USE_TZ = True
 
-JOYOUS_DEFEND_FORMS=True
+JOYOUS_DEFEND_FORMS=False
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
