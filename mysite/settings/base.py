@@ -127,7 +127,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/3.0/topics/i18n/
 
@@ -176,3 +175,7 @@ LANGUAGES = WAGTAILADMIN_PERMITTED_LANGUAGES = [
     ("en",     "English (USA)"),
     ("fr",     "French"),
 ]
+
+MIGRATION_MODULES = {
+    'joyous': 'home.migratejoyous'
+}
